@@ -232,12 +232,13 @@ body.dark-mode .page-links a:hover {
     color: #007bff; 
 }
 
-body.dark-mode .main-container p{
+body.dark-mode .main-container p {
     color: white;
 }
 
 body.dark-mode .flex-container,
-body.dark-mode .box{
+body.dark-mode .box,
+body.dark-mode .carousel-image>p {
     background-color:  #1e1e1e; 
 }
 
