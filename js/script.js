@@ -35,7 +35,7 @@ function loadArticles() {
 
     // Check if the specific article container exists and load the corresponding article
     if (document.getElementById("sports-complex-text")) {
-        fetch('../txt/sports-complex.txt')
+        fetch('https://raw.githubusercontent.com/Ezra-Ben/project-tricona/refs/heads/master/txt/sports-complex.txt')
             .then(response => response.text())
             .then(data => {
                 document.getElementById("sports-complex-text").innerHTML = `<p>${data}</p>`;
@@ -44,7 +44,7 @@ function loadArticles() {
     }
 
     if (document.getElementById("patriotism-week-text")) {
-        fetch('../txt/patriotism-week.txt')
+        fetch('https://raw.githubusercontent.com/Ezra-Ben/project-tricona/refs/heads/master/txt/patriotism-week.txt')
             .then(response => response.text())
             .then(data => {
                 document.getElementById("patriotism-week-text").innerHTML = `<p>${data}</p>`;
@@ -53,7 +53,7 @@ function loadArticles() {
     }
 
     if (document.getElementById("upcoming-event-text")) {
-        fetch('../txt/upcoming-event.txt')
+        fetch('https://raw.githubusercontent.com/Ezra-Ben/project-tricona/refs/heads/master/txt/upcoming-event.txt')
             .then(response => response.text())
             .then(data => {
                 document.getElementById("upcoming-event-text").innerHTML = `<p>${data}</p>`;
@@ -62,7 +62,7 @@ function loadArticles() {
     }
 
     if (document.getElementById("science-fair-text")) {
-        fetch('../txt/science-fair.txt')
+        fetch('https://raw.githubusercontent.com/Ezra-Ben/project-tricona/refs/heads/master/txt/science-fair.txt')
             .then(response => response.text())
             .then(data => {
                 document.getElementById("science-fair-text").innerHTML = `<p>${data}</p>`;
@@ -71,7 +71,7 @@ function loadArticles() {
     }
 
     if (document.getElementById("library-opening-text")) {
-        fetch('../txt/library-opening.txt')
+        fetch('https://raw.githubusercontent.com/Ezra-Ben/project-tricona/refs/heads/master/txt/library-opening.txt')
             .then(response => response.text())
             .then(data => {
                 document.getElementById("library-opening-text").innerHTML = `<p>${data}</p>`;
