@@ -1,0 +1,255 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main h2 {
+    color:#004080;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main>div>h2 {
+    text-align: left;
+}
+section {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+article h3 {
+    margin: 5px 0;
+    color: #222;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+article p {
+    line-height: 1.0;
+}
+
+article a {
+    display: inline-block;
+    background: #004080;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+article a:hover {
+    background: #002b5e;
+}
+
+
+.event-submission-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.event-submission-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.event-submission-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.event-submission-btn:hover {
+    background-color: #45a049;
+}
+
+.event-section {
+    margin-left: 0px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e; 
+    color: white;
+}
+
+/* Ensures articles match dark mode */
+body.dark-mode article {
+    background-color: #252525;
+    color: white;
+    border-bottom: 1px solid #444; 
+}
+body.dark-mode article h3{
+    color: #fff;
+}
+body.dark-mode .event-submission-form {
+    background-color: #2a2a2a; 
+    color: white; 
+    border: 1px solid #444;
+}
+
+#dark-mode-toggle {
+    position: fixed;
+    top: 95px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Dark Mode Styles for the form */
+body.dark-mode #newsForm {
+    background-color: #2a2a2a; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+body.dark-mode #newsForm input {
+    background-color: #444;  
+    color: white;  
+    border: 1px solid #666; 
+    padding: 10px;
+    border-radius: 4px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+body.dark-mode .error {
+    color: #ff6347;  
+}
+
+body.dark-mode #newsForm button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body.dark-mode #newsForm button:hover {
+    background-color: #45a049;  
+}
+
+
+/* Dark Mode Styles for Submitted News/Event Items */
+body.dark-mode .event-item {
+    background-color: #333; 
+    color: white; 
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+body.dark-mode .event-item h3 {
+    color: #fff; 
+}
+
+body.dark-mode .event-item p {
+    color: #ccc;  
+}
+
+body.dark-mode .event-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+body.dark-mode .event-item .delete-btn {
+    background-color: #ff4d4d; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body.dark-mode .event-item .delete-btn:hover {
+    background-color: #ff1a1a; 
+}
+
+/*Dark-mode for the other pages*/
+body.dark-mode .page-links a{
+    color: white;
+}
+
+body.dark-mode .page-links a:hover {
+    color: #007bff; 
+}
+
+body.dark-mode .main-container p{
+    color: white;
+}
+
+body.dark-mode .flex-container,
+body.dark-mode .box{
+    background-color:  #1e1e1e; 
+}
+
+body.dark-mode .contact-form label, 
+body.dark-mode p {
+    color: white;
+}
+
+body.dark-mode .tab,
+body.dark-mode #w-btn, 
+body.dark-mode #t-Btn {
+    background-color: #1e1e1e; 
+    color: white;
+}
+

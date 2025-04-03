@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News & Events | Trinity College Nabbingo</title>
+        <link rel="stylesheet" href="css/header_footer.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/calendar.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+    <div id="header"></div>    
+    <main>
+
+      <div>
+        <h2>Featured News</h2>
+        <article>
+          <img src="images/sportscomplex.jpeg" alt="Sports Complex">
+                <h3>New Sports Complex</h3>
+                <p>Our state-of-the-art sports complex is now open!</p>
+                <a href="featured_news.html">Read more</a>
+                <br><br>
+
+          <img src="images/patriotic.jpeg" alt="Patriotism">
+                <h3>Patriotism Week</h3>
+                <p>Memorandum on the patriotism course</p>
+                <p>conducted for S1 and S5 from</p>
+                <p>March 28 – April 3, 2025</p>
+                <a href="featured_news.html">Read more</a>
+        </article>
+        
+        <section class="event-section">
+                <div class="event-submission-form">
+                  <h2>Submit Your Event</h2>
+                  <p>Share with us your</p>
+                  <p>new and events</p>
+                  <p>by clicking below</p>
+                  <a href="news_upload.html" class="event-submission-btn">Submit Your Event</a>
+                </div>  
+        </section>
+
+      </div>
+
+        <section>
+            <h2>Recent News</h2>
+
+            <article>
+                    <img src="images/sciencefair.jpeg" alt="Science Fair">
+                    <h3>School Wins Science Fair</h3>
+                    <time datetime="2025-03-10">March 10, 2025</time>
+                    <p>Our students excelled in the national science competition...</p>
+                    <a href="recent_news.html">Read More</a>
+            </article>
+            
+            <article>
+                <img src="images/library.jpeg" alt="Library">
+                <h3>New Library Opens</h3>
+                <time datetime="2025-03-20">March 20, 2025</time>
+                <p>The new library offers a modern learning space...</p>
+                <a href="recent_news.html">Read more</a>
+            </article>
+            
+            <article>
+                <img src="images/image.jpeg" alt="Image">
+            </article>
+        </section>
+
+
+        <section>
+
+            <article>
+                <h2>Upcoming Events</h2>
+                <img src="images/sportsday.jpeg" alt="Annual sports Gala">
+                <h3>Annual Sports Day</h3>
+                <time datetime="2025-04-20">April 20, 2025</time>
+                <p>Join us for a fun-filled day of sports activities...</p>
+                <a href="upcoming_events.html">Read More</a>
+            </article>
+            <br><br>
+            <section id="calendar">
+                <h2>Event Calendar</h2>
+            
+                <!-- Navigation Buttons -->
+                <div class="calendar-nav">
+                    <button id="prev-month">&lt; Prev</button>
+                    <span id="current-month">March 2025</span>
+                    <button id="next-month">Next &gt;</button>
+                </div>
+            
+                <!-- Calendar Grid -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sun</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-body">
+                        <!-- JS will generate the days dynamically -->
+                    </tbody>
+                </table>
+            </section> 
+        </section>
+
+        </main>
+
+        <div id="footer"></div>
+        <script src="js/calendar.js"></script>
+    </body>
+</html>

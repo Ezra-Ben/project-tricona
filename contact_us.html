@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us </title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/header_footer.css">
+        <link rel="stylesheet" href="css/about_us-contact_us.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="small-cards-container">
+            <div class="small-card">
+                <i class="fas fa-envelope"></i>
+                <p>Email:</p>
+                <span>trinitycollegenabbingo@gmail.com</span>
+            </div>
+            <div class="small-card">
+                <i class="fas fa-phone"></i>
+                <p>Phone:</p>
+                <span>+256 771632710</span>
+            </div>
+            <div class="small-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Location:</p>
+                <span>Nabbingo, 9 Miles Kla-Masaka Rd, Uganda</span>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="box">
+                <div class="contact-form">
+                    <p>If you have any questions, feel free to reach out to us:</p>
+                    <form class="contactform" onsubmit="return validateForm()">
+                        <h1>Contact Us</h1>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4622.476457420263!2d32.47438575389642!3d0.29086606182686264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sug!4v1743315678250!5m2!1sen!2sug" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+    <div id="footer"></div>
+    <script src="js/about_us-contact_us.js"></script>
+</body>
+</html>
