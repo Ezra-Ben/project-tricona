@@ -15,6 +15,10 @@ nav.page-links a {
     font-weight: bold;
 }
 
+nav.page-links a:hover {
+    color: #007BFF; 
+    text-decoration: underline;
+}
 .main-container {
     display: flex;
     flex-wrap: nowrap; /* Prevent wrapping to ensure alignment */
@@ -60,9 +64,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 200px; 
-}
-section.active {
-    display: block; 
 }
 section:hover {
     transform: translateY(-10px); 
