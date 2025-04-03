@@ -1,7 +1,7 @@
 
 nav.page-links {
-    position: fixed; 
-    top: 120px; 
+    position: relative; 
+    top: auto; 
     width: 100%;
     display: flex;
     justify-content: center;
